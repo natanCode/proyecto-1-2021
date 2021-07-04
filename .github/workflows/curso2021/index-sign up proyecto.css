@@ -1,0 +1,59 @@
+ /* @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap) */
+        /* RESETEO LA PANTALLA */
+        div {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: black;
+            border: #3177FF 2px solid;
+            width: 375px;
+            font-family: Roboto, sans-serif;
+        }
+        .forminput {
+            width: 90%;
+            height: 45px;
+            border-radius: 5px;
+            color: #3177FF;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            line-height: 100%;
+            margin: 5px;
+        }
+        /* .imagenBoton { */
+            /* background-image: url('assets/friki.jpg'); */
+            /* <img src="assets/friki.jpg" width="375px" alt="foto de fondo">  */
+        /* } */
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #3177FF;
+        }
+        .radioBtn {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 10px ;
+        }
+        button {
+            background-color: #3177FF;
+            color: white;
+            border-radius: 5px;
+        }
+        button :hover{
+            cursor: pointer;
+        }
+        h6 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        /* @media (min-width: 700px){
+            width: 100%;
+        } */

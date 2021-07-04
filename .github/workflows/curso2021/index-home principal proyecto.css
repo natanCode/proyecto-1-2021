@@ -1,0 +1,9 @@
+.pelicula-principal {
+    /* NO ME CAMBIA A Roboto */
+    font-family: Roboto;
+    font: Roboto;
+    font-size: 16px;
+    min-height: 48.62em;
+    color: white;
+    background-image: url(../img/7.png);
+}
